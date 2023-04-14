@@ -10276,7 +10276,7 @@ h2.title-modern>span {
     }
     .desktop .services-modern:hover .services-modern-counter {
         transform: translate3d(-50%, -10px, 0);
-        color: #6689ff;
+        color: #a52121;
     }
 }
 
@@ -11023,7 +11023,7 @@ html.boxed body {
         -webkit-text-fill-color: transparent;
         background: -webkit-linear-gradient(transparent, transparent);
         background: -o-linear-gradient(transparent, transparent);
-        background: linear-gradient(-62deg, #45476f, #6689ff);
+        background: linear-gradient(-62deg, #5e0c0c, #e85858);
         -webkit-background-clip: text;
     }
     .text-img>span {
@@ -17917,7 +17917,7 @@ h1+.tabs-line {
 }
 
 .counter-modern-2 .counter-modern-decor {
-    background: #6689ff;
+    background: #a52121;
 }
 
 .counter-modern-number {
@@ -17936,7 +17936,7 @@ h1+.tabs-line {
     width: 100%;
     height: 2px;
     margin: 16px 0 16px auto;
-    background: #6689ff;
+    background: #a52121;
     transition: all .3s ease;
 }
 
@@ -18043,7 +18043,7 @@ h1+.tabs-line {
 }
 
 .counter-creative-2 .counter-creative-number {
-    color: #7796ff;
+    color: #a52121;
 }
 
 .counter-creative-number {
@@ -18064,7 +18064,7 @@ h1+.tabs-line {
     margin-left: 10px;
     font-size: 42px;
     line-height: 1;
-    color: #6386ff;
+    color: #a52121;
 }
 
 .counter-creative-title {
