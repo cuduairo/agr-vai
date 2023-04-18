@@ -4,11 +4,43 @@
     color: #a52121;
     font-size: 3.5vh;
     font-family: 'Roboto', sans-serif;
-    margin-left: 50px;
+    margin-left: 15px;
+}
+
+.display-logo {
+    display: flex;
+    align-items: center;
+}
+
+.red-logo {
+    width: 10px;
+    height: 45px;
+    background-color: #a52121;
 }
 
 .log {
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 3vh;
+}
+
+.legend-contact {
+    font-size: 3.5vh;
+    color: rgb(126, 122, 122)
+}
+
+.bg-footer {
+    background: #444444;
+}
+
+.icon-social-redes-footer {
+    color: #9c9696;
+}
+
+.icon-social-redes-footer a:hover {
+    color: #b13f3f;
+}
+
+.vagas {
+    color: black;
 }
