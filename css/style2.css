@@ -18,6 +18,25 @@
     background-color: #a52121;
 }
 
+#icon-user {
+    font-size: 5vh;
+    font-style: normal;
+}
+
+.btn-empre {
+    color: #ffff;
+    background: #a52121;
+    padding: 5px 5px;
+    border: 2px solid #a52121;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-empre:hover {
+    color: #a52121;
+    background: transparent;
+}
+
 .log {
     color: black;
     font-family: 'Roboto', sans-serif;
@@ -43,4 +62,46 @@
 
 .vagas {
     color: black;
+}
+
+.title {
+    background: #f3ecec;
+    padding: 20px 20px;
+}
+
+.detlh-vaga {
+    font-size: 2.3vh;
+}
+
+#arquivo {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5vh;
+}
+
+.info {
+    padding: 10px 10px;
+    background: #fff;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 15px #8b8a8a;
+}
+
+.infos {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vh;
+}
+
+.infos2 {
+    color: rgb(104, 104, 104);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5vh;
+}
+
+.descrição {
+    color: rgb(53, 53, 53);
+    font-size: 2.5vh;
 }
