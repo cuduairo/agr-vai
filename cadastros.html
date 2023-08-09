@@ -14,55 +14,106 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-        <div class="">
-            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">
-                <b class="logo">Empre</b><b class="log">Tec</b>
-            </a>
-            <hr class="featurette-divider">
+    <nav class="sidebar col-md-2 bg-light bg-nav-cad">
+        <a class="navbar-brand" href="#"><b class="logo">Empre</b><b class="log">Tec</b></a></a>
+        <hr class="featurette-divider ml-3 mr-3">
+        <div class="position-sticky">
+            <ul class="nav flex-column">
+                <li class="nav-item mt-3">
+                    <a class="nav-link" href="#" data-form="welcome">
+                Bem-vindo
+              </a>
+                </li>
+                <li class="nav-item mt-3">
+                    <a class="nav-link" href="#" data-form="form1">
+                Casdastro empresas parceiras
+              </a>
+                </li>
+                <li class="nav-item mt-3">
+                    <a class="nav-link" href="#" data-form="form2">
+                Cadastro cursos
+              </a>
+                </li>
+                <li class="nav-item mt-3">
+                    <a class="nav-link" href="#" data-form="form3">
+                Cadastro vagas
+              </a>
+                </li>
+                <li class="nav-item mt-3">
+                    <a class="nav-link" href="#" data-form="table">
+                Editar|Excluir
+              </a>
+                </li>
+            </ul>
+            <div class="footer">
+                <h4 class="text-center text-footer">Todos os Direitos Resevados</h4>
+                <hr class="featurette-divider text-white">
+                <p class="rights text-center"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>EmpreTec</span>
+                </p>
+            </div>
         </div>
     </nav>
 
-    <div class="container-fluid">
-        <div class="row">
-            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-                <div class="nav-menu alert-secondary">
-                    <div class="sidebar-sticky">
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">
-                                    <span data-feather="home"></span> Dashboard <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="file"></span> Orders
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="shopping-cart"></span> Products
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="users"></span> Customers
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="bar-chart-2"></span> Reports
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="layers"></span> Integrations
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+    <div class="main-content col-md-10 offset-md-2">
+        <div class="forms-container">
+            <div id="welcome" class="form active-form">
+                <div class="alert-danger text-center">
+                    <h2 class="mt-3 mb-3">Bem-vindo!</h2>
                 </div>
-            </nav>
+                <br>
+                <div class="alert-dark text-center">
+                    <p class="mt-3 mb-3">Escolha qual cadastro ira fazer hoje.</p>
+                </div>
+            </div>
+            <form id="form1" class="form">
+                <!-- Formulário 1 -->
+                <h2>Formulário 1</h2>
+                <label for="nome1">Nome:</label>
+                <input type="text" id="nome1" name="nome1"><br><br>
+                <!-- Mais campos do formulário 1... -->
+            </form>
+            <form id="form2" class="form">
+                <!-- Formulário 2 -->
+                <h2>Formulário 2</h2>
+                <label for="nome2">Nome:</label>
+                <input type="text" id="nome2" name="nome2"><br><br>
+                <!-- Mais campos do formulário 2... -->
+            </form>
+            <form id="form3" class="form">
+                <!-- Formulário 3 -->
+                <h2>Formulário 3</h2>
+                <label for="nome3">Nome:</label>
+                <input type="text" id="nome3" name="nome3"><br><br>
+                <!-- Mais campos do formulário 3... -->
+            </form>
+            <div id="table" class="form">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td><button type="button" class="btn btn-danger">Excluir</button></td>
+                            <td><button type="button" class="btn btn-warning">Editar</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td><button type="button" class="btn btn-danger">Excluir</button></td>
+                            <td><button type="button" class="btn btn-warning">Editar</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/core.min.js "></script>
+    <script src="js/script.js "></script>
+    <script src="js/forms_cad.js "></script>
 </body>
 
 </html>
