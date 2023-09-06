@@ -10,6 +10,13 @@
 * Contexts
 */
 
+.unit-body{
+    padding: 5%;;
+}
+.quote-modern-text{
+    padding: 10%;
+
+}
 a:focus,
 button:focus {
     outline: none !important;
