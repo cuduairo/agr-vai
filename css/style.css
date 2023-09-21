@@ -10,6 +10,13 @@
 * Contexts
 */
 
+
+#footer .footer-top {
+    background: #0e0d0d;
+    border-top: 1px solid #474747;
+    border-bottom: 1px solid #474747;
+    padding: 60px 0 30px 0;
+}
 .unit-body{
     padding: 5%;;
 }
